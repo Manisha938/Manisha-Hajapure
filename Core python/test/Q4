@@ -1,0 +1,16 @@
+#take the input
+area=int(input('enter area:'))
+interiour=int(input('enter interiour:'))
+exteriour=int(input('enter exteriour:'))
+
+total_area=interiour*exteriour
+print('total_area',total_area)
+
+both_area=interiour*exteriour
+print('enter the both area',both_area)
+
+one_wall=interiour+exteriour
+print('enter one_wall',one_wall)
+
+
+

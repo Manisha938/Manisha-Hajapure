@@ -1,0 +1,10 @@
+#take the input
+km=int(input('enter the kelometer:'))
+
+
+#covert distance
+meter=km*1000
+centimeter=km*10000
+
+print('distance in meter',meter)
+print('distance in centimeter',centimeter)
