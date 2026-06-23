@@ -1,0 +1,9 @@
+#hello world print
+#i=0                     #initilization
+#while(i<6):
+    #print('HELLO WORLD')
+
+i=0                      #variable initilization
+while(i<=10):              #condition
+    print(i)
+    i=i+1                   #increment

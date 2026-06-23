@@ -1,0 +1,5 @@
+#Arithamatic operator
+X=10
+y=20
+a='ABC'
+b='XYZ'
