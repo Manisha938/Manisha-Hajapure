@@ -1,0 +1,7 @@
+#function defination
+def greet():
+    print("Good afternoon!")
+
+
+#function calling
+greet()
