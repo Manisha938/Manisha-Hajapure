@@ -1,0 +1,21 @@
+#Write a program to check if given number is Armstrong number or not.
+n=int(input('enter the armstrong number:'))
+temp=1
+sum=0
+
+while temp>0:
+    d1=temp%10
+    sum=sum=d1**3
+    temp=temp//10
+
+if sum==n:
+    print("Armstrong number:")
+else:
+    print("not Armostrong number:")
+
+
+    
+        
+    
+
+    
