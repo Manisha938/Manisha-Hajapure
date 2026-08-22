@@ -1,0 +1,6 @@
+#13. Which of the following clauses is used to filter grouped results?
+#a) WHERE
+#b) ORDER BY
+#c) HAVING
+#d) GROUP BY
+C)HAVING

@@ -1,0 +1,7 @@
+#15. What will be the result of the following query?
+#SELECT UPPER('hello world');
+#a) hello world
+#b) HELLO WORLD
+#c) Hello World
+#d) Syntax error
+b)
