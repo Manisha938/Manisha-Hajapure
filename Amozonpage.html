@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <a href="Home about contact">Home aboutc contact</a>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f2f5;
+            padding: 20px 10px;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 28px;
+            color: #172033;
+            margin-bottom: 28px;
+        }
+
+        /* Products Container */
+        .products-container {
+            display: grid;
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+            gap: 10px;
+        }
+
+        /* Product Card */
+        .product {
+            background-color: white;
+            padding: 10px 5px;
+            text-align: center;
+            min-width: 0;
+        }
+
+        /* Product Image */
+        .product img {
+            width: 100%;
+            height: 105px;
+            object-fit: contain;
+            margin-bottom: 12px;
+        }
+
+        /* Product Name */
+        .product h4 {
+            font-size: 11px;
+            font-weight: normal;
+            margin-bottom: 8px;
+        }
+
+        /* Product Price */
+        .product p {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .products-container {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+            }
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .products-container {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+  
+
+    <div class="products-container">
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=300" alt="Watch">
+            <h4>French Connection Timex</h4>
+            <p>$95.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300" alt="Shoes">
+            <h4>Echo Elegance</h4>
+            <p>$20.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300" alt="Laptop">
+            <h4>Acer One 14 AMD</h4>
+            <p>$400.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?w=300" alt="Smart Watch">
+            <h4>Irish Cream Dream</h4>
+            <p>$11.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300" alt="Laptop">
+            <h4>ASUS Vivobook 15</h4>
+            <p>$450.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=300" alt="Watch">
+            <h4>French Connection Timex</h4>
+            <p>$95.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300" alt="Shoes">
+            <h4>Echo Elegance</h4>
+            <p>$20.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=300" alt="Laptop">
+            <h4>Acer One 14 AMD</h4>
+            <p>$400.00</p>
+        </div>
+
+        <div class="product">
+            <img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?w=300" alt="Smart Watch">
+            <h4>Irish Cream Dream</h4>
+            <p>$11.00</p>
+        </div>
+
+</body>
+</html>
