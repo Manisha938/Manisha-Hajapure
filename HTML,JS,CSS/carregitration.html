@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="demo.css">
+    <title>Car Registration Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">🚗 Car Registration Form</h1>
+    <hr>
+
+    <form>
+
+        <h2>Personal Information</h2>
+
+        <label>Full Name:</label>
+        <input type="text" name="fullname" placeholder="Enter your name" required>
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" placeholder="Enter mobile number"
+               pattern="[0-9]{10}" required>
+        <br><br>
+
+        <label>Address:</label>
+        <textarea name="address" rows="4" cols="30"
+                  placeholder="Enter your address" required></textarea>
+        <br><br>
+
+        <hr>
+
+        <h2>Car Information</h2>
+
+        <label>Car Brand:</label>
+        <select name="brand" required>
+            <option value="">Select Brand</option>
+            <option>Maruti Suzuki</option>
+            <option>Tata</option>
+            <option>Hyundai</option>
+            <option>Mahindra</option>
+            <option>Toyota</option>
+            <option>Honda</option>
+        </select>
+        <br><br>
+
+        <label>Car Model:</label>
+        <input type="text" name="model" placeholder="Enter car model" required>
+        <br><br>
+
+        <label>Manufacturing Year:</label>
+        <input type="number" name="year" min="1980" max="2026" required>
+        <br><br>
+
+        <label>Car Color:</label>
+        <input type="color" name="color">
+        <br><br>
+
+        <label>Fuel Type:</label>
+
+        <input type="radio" name="fuel" value="Petrol" required> Petrol
+        <input type="radio" name="fuel" value="Diesel"> Diesel
+        <input type="radio" name="fuel" value="CNG"> CNG
+        <input type="radio" name="fuel" value="Electric"> Electric
+
+        <br><br>
+
+        <label>Transmission:</label>
+
+        <input type="radio" name="transmission" value="Manual" required> Manual
+        <input type="radio" name="transmission" value="Automatic"> Automatic
+
+        <br><br>
+
+        <label>Purchase Date:</label>
+        <input type="date" name="purchase_date" required>
+        <br><br>
+
+        <label> Car Photo:</label>
+        <img src="car.avif"alt=car>
+        <br><br>
+
+        <hr>
+
+        <input type="checkbox" name="terms" required>
+        I confirm that the information provided is correct.
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+
+    <footer>
+        <p align="center">Car Registration Form</p>
+    </footer>
+
+</body>
+
+</html>

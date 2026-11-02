@@ -1,0 +1,182 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ROADSTER Shopping</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        /* Main Container */
+        .container {
+            width: 100%;
+            max-width: 1000px;
+            margin: auto;
+            border: 2px solid black;
+            background-color: white;
+            padding: 15px;
+        }
+
+        /* Navigation Bar */
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .brand h2 {
+            margin: 0;
+            margin-right: auto;
+        }
+
+        .brand button {
+            width: 90px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .brand button:hover {
+            background-color: gray;
+        }
+
+        /* Product Layout */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 15px;
+        }
+
+        /* Product Box */
+        .box {
+            width: calc(25% - 12px);
+            border: 1px solid #cccccc;
+            padding: 10px;
+            text-align: center;
+            background-color: white;
+        }
+
+        /* Product Images */
+        .box img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .box p {
+            margin: 8px 0;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #e63946;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 600px) {
+            .box {
+                width: calc(50% - 8px);
+            }
+
+            .brand {
+                gap: 10px;
+            }
+
+            .brand h2 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Navigation Bar -->
+        <div class="brand">
+            <h2>ROADSTER</h2>
+
+            <button onclick="location.href='#home'">Home</button>
+            <button onclick="location.href='#products'">Products</button>
+            <button onclick="location.href='#contact'">Contact</button>
+        </div>
+
+        <!-- Products -->
+        <div class="products" id="products">
+
+            <div class="box">
+                <img src="images/SLING.jpeg" alt="Sling Bag">
+                <p>SLING</p>
+                <p class="price">PRICE: ₹1299</p>
+            </div>
+
+            <div class="box">
+                <img src="images/JACKET.jpeg" alt="Jacket">
+                <p>JACKET</p>
+                <p class="price">PRICE: ₹799</p>
+            </div>
+
+            <div class="box">
+                <img src="images/WATCH.jpeg" alt="Watch">
+                <p>WATCH</p>
+                <p class="price">PRICE: ₹799</p>
+            </div>
+
+            <div class="box">
+                <img src="images/SHIRT.jpeg" alt="Shirt">
+                <p>SHIRT</p>
+                <p class="price">PRICE: ₹699</p>
+            </div>
+
+            <div class="box">
+                <img src="images/JEANS.jpeg" alt="Jeans">
+                <p>JEANS</p>
+                <p class="price">PRICE: ₹1300</p>
+            </div>
+
+            <div class="box">
+                <img src="images/SNEAKERS.jpeg" alt="Sneakers">
+                <p>SNEAKERS</p>
+                <p class="price">PRICE: ₹749</p>
+            </div>
+
+            <div class="box">
+                <img src="images/TOP.jpeg" alt="Top">
+                <p>TOP</p>
+                <p class="price">PRICE: ₹399</p>
+            </div>
+
+            <div class="box">
+                <img src="images/BAG.jpeg" alt="Backpack">
+                <p>BACKPACK</p>
+                <p class="price">PRICE: ₹899</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
+```
