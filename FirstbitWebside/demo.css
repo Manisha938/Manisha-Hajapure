@@ -1,0 +1,44 @@
+.visit-section,
+.registration-section {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    background-color: #b49f25;
+    border-radius: 10px;
+}
+
+.visit-btn {
+    display: inline-block;
+    background-color: gray;
+   
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.registration-section {
+    margin-top: 30px;
+}
+
+.registration-section form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.registration-section input,
+.registration-section select,
+.registration-section button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.registration-section label {
+    display: block;
+    text-align: left;
+}
+body {
+    background-color: rgb(127, 187, 36);
+}
